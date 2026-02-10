@@ -1,5 +1,6 @@
 import { BaseEdge, EdgeLabelRenderer, getBezierPath } from "@xyflow/react";
 import { /*Container,*/ PositionContainer } from "./styles";
+import { IPropsConexao } from "./types";
 // import { Typography } from "@mui/material";
 
 export function Conexao({
@@ -10,7 +11,7 @@ export function Conexao({
     sourcePosition,
     targetPosition,
     markerEnd,
-}) {
+}: IPropsConexao) {
     const [edgePath, labelX, labelY] = getBezierPath({
         sourceX,
         sourceY,

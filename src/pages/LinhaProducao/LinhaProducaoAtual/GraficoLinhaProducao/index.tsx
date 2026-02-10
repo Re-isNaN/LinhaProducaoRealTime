@@ -25,7 +25,9 @@ export function GraficoLinhaProducao() {
             <ReactFlow
                 nodes={nodes}
                 edges={edges}
+                //@ts-expect-error erro de tipagem por customizar nó no workflow
                 nodeTypes={nodeTypes}
+                //@ts-expect-error erro de tipagem por customizar aresta no workflow
                 edgeTypes={edgeTypes}
                 // isValidConnection={isValidConnection}
                 fitView

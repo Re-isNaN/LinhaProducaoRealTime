@@ -5,9 +5,10 @@ import {
 import { ContainerEtapa, HeaderEtapa } from './styles';
 import { IconeMultiplasEngrenagens } from '@/components/icones/svg/MultiplasEngrenagens';
 import { Cancel, CheckCircle, PauseCircle, RemoveCircle, Settings, Warning } from '@mui/icons-material';
+import { IPropsEtapa } from './types';
 
 // Componente de nó customizado
-export function Etapa({ id, data }) {
+export function Etapa({ id, data }: IPropsEtapa) {
 
     return (
         <ContainerEtapa id={id}>

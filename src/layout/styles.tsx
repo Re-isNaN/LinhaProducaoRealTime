@@ -11,6 +11,6 @@ export const Main = styled((props: BoxProps) => (
   flexGrow: 1,
   width: '100vw',
   minHeight: 'calc(100vh - 3.75rem)',
-  padding: theme.breakpoints.down('tablet') ? 0 : '0.5rem',
+  padding: '0.5rem',
   backgroundColor: theme.palette.grey[50],
 }))
