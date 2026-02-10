@@ -1,0 +1,1 @@
+export type TypeStatus = 'PRODUZINDO' | 'PARADA' | 'CANCELADA' | 'CONCLUÍDA' | 'ATRASADA' | ''

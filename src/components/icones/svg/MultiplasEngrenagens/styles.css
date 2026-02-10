@@ -1,0 +1,29 @@
+.gear-container {
+    display: inline-block;
+}
+
+.gear {
+    animation: rotate 2s linear infinite;
+    color: #4a5568;
+    /* cor da engrenagem */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Reverso */
+.gear.reverse {
+    animation-direction: reverse;
+}
+
+/* Pausa no hover */
+/* .gear:hover {
+    animation-play-state: paused;
+} */
