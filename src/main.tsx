@@ -5,7 +5,5 @@ import '@fontsource/dm-sans/400.css';
 import '@fontsource/dm-sans/700.css';
 // @ts-ignore
 import '@fontsource/jetbrains-mono';
-// @ts-ignore
-import '@fontsource/bebas-neue';
 
 createRoot(document.getElementById('root')!).render(<App />)
