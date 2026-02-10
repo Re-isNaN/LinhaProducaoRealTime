@@ -47,10 +47,7 @@ export function GraficoLinhaProducaoProvider({
         return edges
     }, [producao])
 
-    const [edges, setEdges] = useEdgesState([...customEdges]);
-
-    console.log(nodes.map(n => n.id))
-    console.log(edges)
+    const [edges] = useEdgesState([...customEdges]);
 
     useEffect(() => {
         if (producao?.etapas) {
